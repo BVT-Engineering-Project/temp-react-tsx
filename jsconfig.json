@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@ui": ["src/libs/ui/index.js"],
+      "@utils": ["src/libs/utils/index.js"],
+      "@hooks": ["src/libs/hooks/index.js"],
+      "@modules": ["modules/index.js"]
+    }
+  },
+  "include": ["**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
+}
